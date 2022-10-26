@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Register | NoKa 3</title>
+    <link rel="icon" href="Assets/Logo.png">
+</head>
+<body>
+    <div class="register-landing-page">
+        <input type="checkbox" class="nav-toggle" id="nav-toggle">
+        <nav class="atas">
+            <div class="container-nav">
+                <div class="kiri">
+                    <div class="noka-logo">
+                        <a href="index.html">
+                        <img src="Assets/Full-Logo.png" class= "logo"alt="">
+                        <img src="Assets/Logo.png" class ="logo-secondary"alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="tengah">
+                    <ul class="primary-nav">
+                        <li><a href="index.html" class="nav-c" >HOME</a></li>
+                        <li><a href="news.html" class="nav-c" >NEWS</a></li>
+                        <li><a href="heroes.html" class="nav-c" >HEROES</a></li>
+                        <li><a href="esports.html" class="nav-c" >ESPORTS</a></li>
+                    </ul>
+                </div>
+                <div class="kanan lagi khusus-regis">
+                    <ul class="secondary-nav">
+                        <li><a href="register.html" class="nav-s"> Register Now</a></li>
+                    </ul>
+                </div> 
+                <label for="nav-toggle">
+                    <span><img src="Assets/Mobile-Exit-Button.png" alt="" id ="mobile-exit" class="mobile-menu-exit" ></span>
+                </label>
+                
+            </div>
+        </nav>
+        <div class="mobile">
+            <div class="container-nav">
+                <div class="kiri">
+                    <div class="noka-logo">
+                        <a href="index.html">
+                        <img src="Assets/Logo.png" class ="logo-secondary-mobile"alt="">
+                        </a>
+                    </div>
+                </div>
+                <a href="" class="mobile-active khusus-regis" > REGISTER</a>
+                <label for="nav-toggle">
+                    <span><img src="Assets/Mobile-Menu-Button.png" alt="" id ="mobile-open" class="mobile-menu"></span>
+                </label>
+            </div>
+        </div>
+        <div class="register-container">
+            <form  id="form" method="post" onSubmit="return validateInputs()" action="index.html" autocomplete="off">
+                <div class="input-icon">
+                    <img src="Assets/User.png" alt="" class="gambar">
+                    <input type="text" placeholder="Name"class ="bukan-submit name" id="username">
+                    <p id="username-error" class="error"></p>
+                    <br>
+                </div>
+                <div class="input-icon">
+                    <img src="Assets/Email.png" alt="" class="gambar">
+                    <input type="email" placeholder="Email"class ="bukan-submit" id="email"> 
+                    <p id="email-error" class="error"></p>
+                    <br>
+                </div>
+                <div class="input-icon-select">
+                    <img src="Assets/Toilet.png" alt="">
+                    <select name="dropdown" id="gender" class ="bukan-submit" >
+                        <option value="Gender" selected hidden class ="muncul">Gender</option>
+                        <option value="" class="dropdown-content">Male</option>
+                        <option value="" class="dropdown-content">Female</option>
+                    </select> 
+                    <p id="gender-error" class="error"></p>
+                    <br>
+                </div>
+                <div class="input-icon">
+                    <img src="Assets/Kunci.png" alt="" class="gambar" >
+                    <input type="password" placeholder="Password"class ="bukan-submit" id="password">
+                    <p id="password-error" class="error"></p>
+                    <br>
+                </div>
+                <div class="input-icon">
+                    <img src="Assets/Kunci.png" alt="" class="gambar" >
+                    <input type="password" placeholder="Confirm Password"class ="bukan-submit" id="password-check">
+                    <p id="password2-error" class="error"></p>
+                    <br>
+                </div>
+                <input type = "checkbox" class ="check" id="check">I agree with terms and conditions 
+                <p id="terms-error" class="error"></p>
+                <br>
+                <div class="submit-position">
+                    <button  type="submit" value="Register" class="submit" id="submit">Register</button>
+                </div>
+                
+            </form>
+            <div class="register-judul">
+                <h1>
+                    CREATE AN
+                </h1>
+                <h1> 
+                    ACCOUNT
+                </h1>
+            </div>
+        </div>
+        <div class="shadow-box-bottom">
+        </div>
+    </div>
+    <div class="bawah">
+        <footer>
+            <img src="Assets/Logo.png" class= "logo2"alt="">
+            <img src="Assets/Nama.png" class= "nama2"alt="">
+            <br>
+            Copyright@2022 Valentino Setiawan & Alexander.
+            <br>
+            All Rights Reserved
+        </footer>
+    </div>
+    <script src="Script/script.js"></script>
+</body>
+
+</html>
