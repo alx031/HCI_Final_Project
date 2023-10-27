@@ -8,5 +8,4 @@ We are permitted to copy the data of other games but not the design.
 Both Valentino and I are responsible for the Low-Fi, Medium-Fi, and High-Fi in Figma as well as the HTML, CSS, and Javascript Website Version 
 
 Authors:
-Valentino Setiawan
-Alexander
+Valentino Setiawan and Alexander
